@@ -76,7 +76,7 @@ subquestion: |
   Full Name|${ JIRMname }
   South Australian Resident?|${ JIRMresidency } 
   English as a first language?|${ JIRMesl }
-  %if true or false fix later
+  %if JIRMesl == 'No'
   Interpreter|${ JIRMinterpreter } 
   %endif 
   Matter|${ JIRMmatter } 
@@ -215,7 +215,7 @@ fields:
     min: 5000
     max: 5999
 ---
-#Legal Services Dictionary 
+#Legal Services Dictionary, take this out eventually
 variable name: JIRMlegalservices
 use objects: True
 data:
