@@ -1,13 +1,27 @@
-# SACAT Legal Assistance Code
+# SACAT Legal Assistance App Main 
 ---
 objects:
   - endpoint: DADict
+---
+# app metadata
+metadata:
+  title: SACAT Legal Assistance App
+  authors:
+    - name: Rhea Jolley
+    - name: Ioanna Moliviatis
+    - name: Mary Nguyen
+    - name: Jashoda Rawat
+  organisation:  Flinders University
 ---
 #Interview help button, pretty cool feature we could include
 interview help:
   heading: About this interview
   content: |
     Whatever we want here!!
+---
+# This will include the other files
+include:
+  - JIRM_SERVICES.yml
 ---
 # SACAT Welcome Screen
 mandatory: True
@@ -48,7 +62,7 @@ code: |
   else:
     endpoint['JIRMineligible']
 ---
-# JIRM Screen that says: thank you for completing the eligibility and matter q's. app will ask for personal deets. can't figure out how to get it to show
+# JIRM Screen that says: thank you for completing the eligibility and matter q's
 continue button field: JIRMpersonal_details_permission
 question: |
   Personal Details
@@ -66,7 +80,9 @@ subquestion: |
   ${ JIRMasked } 
   Dear ${ JIRMname },
   
-  This is the SACAT Legal Service Assistance App, accessed on ${ format_date(today(), format='EEEE, d MMMM yyyy') } at ${ format_time(current_datetime()) }.
+  Thanks for using the SACAT Legal Service Assistance App, accessed on ${ format_date(today(), format='EEEE, d MMMM yyyy') } at ${ format_time(current_datetime()) }.
+  
+  A list of relevant legal and advisory servicecs have been compiled relating to your matter thanks to the information provided. Contact details and location for each service have been provided for your convenience. In addition, a downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
 
   Here are your answers. 
 
@@ -74,12 +90,28 @@ subquestion: |
   -------|-------
   Salutation|${ JIRMsalutation }
   Full Name|${ JIRMname }
-  South Australian Resident?|${ JIRMresidency } 
+  Age|${ JIRMage } 
+  Gender|${ JIRMgender }
+  Indigenous Australian?|${ JIRMaboriginalortsi }
+  Postcode|${ JIRMpostcode }
+  Matter in SA?|${ JIRMresidency } 
   English as a first language?|${ JIRMesl }
-  %if JIRMesl == 'No'
+  %if JIRMesl == 'No':
   Interpreter|${ JIRMinterpreter } 
   %endif 
   Matter|${ JIRMmatter } 
+  %if JIRMmatter == 'Housing':
+  Specifics|${ JIRMhousingmatter }
+  %endif
+  %if JIRMmatter == 'Births, deaths and marriages':
+  Specifics|${ JIRMbdmmatter }
+  %endif
+  %if JIRMmatter == 'Equal Opportunity':
+  Specifics|${ JIRMeomatter }
+  %endif
+  %if JIRMmatter == 'Other administrative and community matters':
+  Specifics|${ JIRMadmincommatter }
+  %endif
   
    Based on your answers, we have generated a list of legal services that can assist in your matter.
    
@@ -194,7 +226,7 @@ fields:
       - Miss
   - Full Name: JIRMname
   - Age: JIRMage
-    datatype: number
+    datatype: interger
     min: 0
     max: 122
   - Gender: JIRMgender
@@ -211,7 +243,7 @@ fields:
       - No
       - Prefer not to answer
   - Postcode: JIRMpostcode
-    datatype: number
+    datatype: interger
     min: 5000
     max: 5999
 ---
@@ -237,6 +269,8 @@ data:
     Area: 
     Contact Number: 03297402394
 ---
+# Everything below creates the table
+---
 # Creates the column header
 code: |
   # This makes the column header empty
@@ -256,9 +290,7 @@ code: |
   for i in range(len(JIRMlegalservices[0]) - 1):
     JIRMdashes += "|---"
 ---
-# This constructs a list for display as the rows of the table.  Again, we iterate
-# through the first dictionary to get our list of keys, then we iterate over
-# this list to extract the values for each row. Dictionaryception!
+# This constructs a list for display as the rows of the table.
 code: | 
   # Initialise empty list
   JIRMtable_rows = []
