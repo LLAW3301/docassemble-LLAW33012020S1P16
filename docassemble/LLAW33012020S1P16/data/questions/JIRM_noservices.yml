@@ -1,4 +1,4 @@
-# SACAT Legal Assistance App Main 
+# SACAT Legal Assistance App without services so it runs
 ---
 objects:
   - endpoint: DADict
@@ -18,10 +18,6 @@ interview help:
   heading: About this interview
   content: |
     Whatever we want here!!
----
-# This will include the other files
-include:
-  - JIRM_SERVICES.yml
 ---
 # SACAT Welcome Screen
 mandatory: True
@@ -119,8 +115,9 @@ subquestion: |
   
   Would you like to see a complete list of legal services?
   
-  *DO A SHOW IF THAT WILL SHOW THE COMPLETE LIST
   Here is a complete list of legal services.
+  
+  *Might take that out and just show proper services*
   
   ${ JIRMcolumn_header }
   ${ JIRMdashes }
