@@ -8,13 +8,14 @@ data:
     legal_service: Tenancies Branch, Consumer and Business Services
     location:
     area: 
+      -
     number: 03297402394
     email: 
     phone: 
     expertise: Housing
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS002:
     legal_service: Tenants Information and Advocacy Service (TIAS)
@@ -32,346 +33,475 @@ data:
     legal_service: Real Estate Institute of South Australia
     location:
     area: 
+      -
     number: 03297402394
     email: 
     phone: 
     expertise: Housing
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS004:
     legal_service: Landlord's Association (SA)
     location:
     area: 
+      -
     number: 03297402394
     email: 
     phone: 
     expertise: Housing
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous:
   LS005: 
     legal_service: Births, Deaths ad Marriages, Consumer and Business Services
     location:
     area: 
+      -
     number: 03297402394
     email: 
     phone: 
     expertise: Births, deaths and marriages
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS006:
     legal_service: Legal Services Commission 
     location:
     area: 
+      -
     number: 03297402394
     email: 
     phone: 
     expertise: Births, deaths and marriages
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS007:
     legal_service: Equal Opportunity Commission Legal Advice Service
-    location:
+    location: Level 15, GPO Exchange, 10 Franklin Street, Adelaide, SA, 5000
     area: 
+      - CBD
     number: 8207 1977
     email: eoclas@adelaide.edu.au
     phone: 
     expertise: Equal opportunity 
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
+    description:
   LS008:
     legal_service: The South Australian Equal Opportunity Commission (EOC) 
     location:
     area: 
+      -
     number: (08) 8207 1977
     email: EOC@sa.gov.au
     phone: 
     expertise: Equal opportunity 
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
+    description: -
   LS009: 
     legal_service: Community Legal Services (North) 
     location: 
-    area: north
+    area:
+      - north
     number: 8281 6911
     email: 
     phone: 
     expertise: Other administration and community matters
-    gender:
-     male: 
-     female:
+    gender: 
+      male: 
+      female: 
     indigenous: 
+    description: 
   LS010:
     legal_service: Community Legal Services (Western, mid north and outback) 
     location:
-    area: west
-    area: mid north
-    area: outback 
+    area:
+      - west
+      - mid north
+      - outback
     number: 8340 9009
     email: 
     phone: 
     expertise: Other administration and community matters
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS011:
     legal_service: Community Legal Services (Central and hills) 
     location:
-    area: central
-    area: hills
+    area: 
+      - central
+      - hills
     number: 8342 1800
     email: 
     phone: 
     expertise: Other administration and community matters
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS012:
     legal_service: Community Legal Services (South) 
     location: 
-    area: south
+    area:
+      - south
     number: 1300850650
     email: 
     phone: 
     expertise: Other administration and community matters
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS013:
     legal_service: Community Legal Services (South east)
     location:
-    area: south east
+    area: 
+      - south east
     number: 8723 1396
     email: 
     phone: 
     expertise: Other administration and community matters
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS014:
     legal_service: Community Legal Services (Riverland) 
     location: 
-    area: Riverland
+    area: 
+      - Riverland
     number: 8582 4998
     email: 
     phone: 
     expertise: Other administration and community matters
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
   LS015:
     legal_service: Legal Support - Uniting Communities 
-    location:
+    location: 43 Franklin St, Adelaide SA, Australia 5000
     area: 
+      - CBD
     number: 1800 615677
     email: enquiries@unitingcommunities.org
-    phone: 
+    website: https://www.unitingcommunities.org/services/financial-legal-services/legal-services/
     expertise: Other administration and community matters
     gender:
-     male: 
-     female:
-    indigenous: 
+      male: true
+      female: true
+    indigenous: true
+    description: Uniting Communities is an inclusive not-for-profit organisation working alongside more than 74,000 South Australians each year as they strive for bright futures and great lives. We value diversity and are committed to providing respectful, accessible services to all.
   LS016:
     legal_service: Men’s Legal Service
     location:
     area: 
+      - 
     number: 03297402394
     email: 
     phone: 1800 463 675
     expertise:
     gender:
-     male: true
-     female: false
+      male: true
+      female: false
     indigenous: 
   LS017:
     legal_service: Legal Services Commission of S.A
     location:
     area: 
+      - 
     number: 1300 366 424
     email: 
     phone: 
     expertise:
     gender:
-     male: true
-     female: false
+      male: true
+      female: false
     indigenous: 
   LS018:
     legal_service: Women’s legal services
     location:
     area: 
+      - 
     number: 8221 5553
     email: 
     phone: 
     expertise:
     gender:
-     male: false
-     female: true
+      male: false
+      female: true
     indigenous: 
   LS019:
     legal_service: Working women’s center
     location:
     area: 
+     - 
     number: 03297402394
     email: 
     phone: 
     expertise:
     gender:
-     male: false
-     female: true
+      male: false
+      female: true
     indigenous: 
   LS020:
     legal_service: 1800RESPECT helpline
     location:
-    area: 
+    area:
+      - 
     number: 03297402394
     email: 
     phone: 
     expertise:
     gender:
-     male: false
-     female: true
+      male: false
+      female: true
     indigenous: 
   LS021:
     legal_service: Aboriginal legal rights movement
     location:
     area: 
+      - 
     number: 1800 643 222
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: true
   LS022:
     legal_service: Aboriginal Family Domestic Violence Hotline
     location:
     area: 
+      - 
     number: 1800 019 123
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: true
   LS023:
     legal_service: Uniting communities 
     location:
     area: 
+      - 
     number: 8342 1800
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS024:
     legal_service: University of Adelaide student clinic
     location:
     area: 
+      - 
     number: 03297402394
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS025:
     legal_service: Flinders university advice clinic
     location:
     area: 
+      - 
     number: 03297402394
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS026:
     legal_service: UniSA Legal Advice Clinic
     location:
     area: 
+      - 
     number: 03297402394
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS027:
     legal_service: Child support Helpline
     location:
     area: 
+      - 
     number: 03297402394
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS028:
     legal_service: Kid's helpline
     location:
     area: 
+      - 
     number: 1800 551 800
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS029:
     legal_service: Australian Childhood foundation
     location:
     area: 
+      - 
     number: 1800 176 453
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
   LS030:
     legal_service: Blue Knot Foundation
     location:
     area: 
+      - 
     number: 1300 657 380
     email: 
     phone: 
     expertise:
     gender:
-     male: 
-     female:
+      male: 
+      female:
     indigenous: 
     youth: true
+  LS031:
+    legal_service: The South Australian Equal Opportunity Comission 
+    location: 10 Franklin Street, Adelaide, 5000
+    area: 
+      - 
+    number: 1300 657 380
+    email: AttorneyGeneral@sa.gov.au
+    phone: 
+    expertise: Equal opportunity
+    gender:
+      male: 
+      female:
+    indigenous: 
+    youth: 
+    description: AGD delivers legal infrastructure for South Australia that is just, equitable and robust, with a focus on prevention. We promote fair, timely and economical access to justice by providing legal, civil, prosecutorial and legislative services to the community, ministers and agencies across government, as well as specialist policy advice.
+   LS032:
+    legal_service: Blue Knot Foundation
+    location:
+    area: 
+      - 
+    number: 1300 657 380
+    email: 
+    phone: 
+    expertise:
+    gender:
+      male: 
+      female:
+    indigenous: 
+    youth: true
+  LS033:
+    legal_service: Northern Community Legal Service Inc.
+    location: 26 John St, Salisbury SA 5108
+    area: 
+      - 
+    number: 8281 6911
+    email: ncls@nothernlegal.org.au
+    website: https://northerncommunitylegalservice.weebly.com/contact.html 
+    expertise: Other administration and community matters
+    gender:
+      male: 
+      female:
+    indigenous: 
+    youth: 
+    description: The Northern Community Legal Service (NCLS) provides a free legal aid service for people living in Adelaide’s northern suburbs and the mid north.
+      LS030:
+    legal_service: Blue Knot Foundation
+    location:
+    area: 
+      - 
+    number: 1300 657 380
+    email: 
+    phone: 
+    expertise:
+    gender:
+      male: 
+      female:
+    indigenous: 
+    youth: true
+  LS034:
+    legal_service: WestSide Lawyers
+    location:
+      - 212 Port Road Hindmarsh SA 5007
+      - Flinders Arcade
+      - 72 Ellen St, Port Pirie, SA 5540
+    area: 
+      - west 
+    number: 8281 6911
+    email: ncls@nothernlegal.org.au
+    website: http://www.westsidelawyers.net/contactus.htm
+    expertise: Other administration and community matters
+    gender:
+      male: 
+      female:
+    indigenous: 
+    youth: 
+    description: WestSide Lawyers provides quality legal assistance to financially or otherwise disadvantaged people in Adelaide's western suburbs and the lower Flinders Ranges in South Australia.
+  LS035:
+    legal_service: WestSide Lawyers
+    address:
+      - 212 Port Road Hindmarsh SA 5007
+      - Flinders Arcade
+      - 72 Ellen St, Port Pirie, SA 5540
+    area: 
+      - south
+      - south east 
+      - riverland 
+    number: 1300850650
+    email: https://www.scjc.com.au/
+    website: https://www.communityjusticesa.org.au/contact-us/
+    expertise: Other administration and community matters
+    gender:
+      male: 
+      female:
+    indigenous: 
+    youth: 
+    description: WestSide Lawyers provides quality legal assistance to financially or otherwise disadvantaged people in Adelaide's western suburbs and the lower Flinders Ranges in South Australia.
+---
