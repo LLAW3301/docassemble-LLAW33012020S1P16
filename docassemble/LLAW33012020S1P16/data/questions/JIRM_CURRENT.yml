@@ -263,7 +263,7 @@ fields:
       - West 
       - North west 
       - Riverland 
-      - Metropolitan 
+      - CBD
 ---
 #Legal Services Dictionary, take this out eventually
 variable name: JIRMlegalservices
