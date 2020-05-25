@@ -129,7 +129,7 @@ data:
     expertise: Equal opportunity 
     gender:
       male: CHECK
-      female:CHECK
+      female: CHECK
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
@@ -138,7 +138,7 @@ data:
     legal_service: Community Legal Services (North) 
     address: CHECK
     area:
-      - north
+      - North
     number: 8281 6911
     email: CHECK
     website: CHECK
@@ -149,90 +149,90 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
-    description: 
+    description: CHECK
   LS010:
     legal_service: Community Legal Services (Western, mid north and outback) 
     address:
     area:
-      - west
-      - mid north
-      - outback
+      - West
+      - Mid north
+      - Outback
     number: 8340 9009
-    email: 
-    website: 
+    email: CHECK
+    website: CHECK
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory:
-    description: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
+    description: CHECK
   LS011:
     legal_service: Community Legal Services (Central and hills) 
-    address:
+    address: CHECK
     area: 
-      - central
-      - hills
+      - central CHECK
+      - hills CHECK
     number: 8342 1800
-    email: 
-    website: 
+    email: CHECK
+    website: CHECK
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory:
-    description: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
+    description: CHECK
   LS012:
     legal_service: Community Legal Services (South) 
-    address: 
+    address: CHECK
     area:
-      - south
-    number: 1300850650
-    email: 
-    website: 
+      - South
+    number: CHECK
+    email: CHECK
+    website: CHECK
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory:
-    description: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
+    description: CHECK
   LS013:
     legal_service: Community Legal Services (South east)
-    address:
+    address: CHECK
     area: 
       - south east
     number: 8723 1396
-    email: 
-    website: 
+    email: CHECK
+    website: CHECK
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory:
-    description: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
+    description: CHECK
   LS014:
     legal_service: Community Legal Services (Riverland) 
-    address: 
+    address: CHECK
     area: 
       - Riverland
     number: 8582 4998
-    email: 
-    website: 
+    email: CHECK
+    website: CHECK
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory:
-    description: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
+    description: CHECK
   LS015:
     legal_service: Uniting Communities Law Centre
     address: 43 Franklin St, Adelaide SA, Australia 5000
@@ -257,7 +257,7 @@ data:
     number: 1800 463 675
     email: info@menslegalservice.org.au
     website: https://menslegalservice.org.au/
-    expertise:
+    expertise: CHECK
     gender:
       male: true
       female: false
@@ -269,7 +269,7 @@ data:
     legal_service: Legal Services Commission
     address: 159 Gawler Place, Adelaide SA 5000
     area: 
-      - 
+      - CHECK
     number: 1300 366 424
     email: N/A
     website: https://lsc.sa.gov.au/contact
@@ -277,15 +277,15 @@ data:
     gender:
       male: true
       female: false
-    indigenous: 
-    youth: 
-    advisory:
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
     description: The Commission provides legal assistance: through the provision of legal advice and community legal education, and by providing legal representation for those who are most in need and unable to pay for legal representation.
   LS018:
     legal_service: Women’s legal services
     address: 15 Franklin street, Adelaide SA 5000
     area: 
-      - 
+      - CHECK
     number: 8221 5553
     email: Wsl@wlssa.org.au
     website: http://www.wlssa.org.au
@@ -315,20 +315,20 @@ data:
     description: Working women’s centres provide information, support, advice and advocacy services to women on work-related issues.
   LS020:
     legal_service: 1800RESPECT helpline
-    address:
+    address: CHECK
     area:
-      - 
+      - CHECK
     number: CHECK
-    email: 
-    website: 
-    expertise:
+    email: CHECK
+    website: CHECK
+    expertise: CHECK
     gender:
       male: false
       female: true
-    indigenous: 
-    youth: 
-    advisory:
-    description: 
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
+    description: CHECK
   LS021:
     legal_service: Aboriginal legal rights movement
     address: 321-325 King William street, Adelaide 5000
@@ -376,11 +376,11 @@ data:
     website: https://www.communityjusticesa.org.au/contact-us/
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
     description: We provide free legal advice in the areas of civil, criminal, family and immigration low to most members of the community and free court representation in both the State and Federal Courts as well as case work, subject to eligibility. 
   LS024:
     legal_service: University of Adelaide student clinic
@@ -402,7 +402,7 @@ data:
     legal_service: Flinders university advice clinic
     address: CHECK
     area: 
-      - 
+      - CHECK
     number: 7421 9985
     email: legaladvice@flinders.edu.au 
     website: legaladviceclinic.net.au
@@ -466,7 +466,7 @@ data:
     legal_service: Australian Childhood Foundation
     address: 579 Whitehorse road, Mitcham, Victoria 3132
     area: 
-      - 
+      - CHECK
     number: 1800 176 453
     email: support@childhood.org.au 
     website: www.childhood.org.au
@@ -482,7 +482,7 @@ data:
     legal_service: Blue Knot Foundation
     address: N/A
     area: 
-      - 
+      - CHECK
     number: 1300 657 380
     email: helpline@blueknot.org.au 
     website: blueknot.org.au 
@@ -498,39 +498,23 @@ data:
     legal_service: The South Australian Equal Opportunity Commission 
     address: 10 Franklin Street, Adelaide, 5000
     area: 
-      - 
+      - CBD
     number: 1300 657 380
     email: AttorneyGeneral@sa.gov.au
-    website: 
+    website: CHECK
     expertise: Equal opportunity
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
     description: AGD delivers legal infrastructure for South Australia that is just, equitable and robust, with a focus on prevention. We promote fair, timely and economical access to justice by providing legal, civil, prosecutorial and legislative services to the community, ministers and agencies across government, as well as specialist policy advice.
-   LS032:
-    legal_service: Blue Knot Foundation
-    address:
-    area: 
-      - 
-    number: 1300 657 380
-    email: 
-    website: 
-    expertise:
-    gender:
-      male: 
-      female:
-    indigenous: 
-    youth: true
-    advisory:
-    description: 
-  LS033:
+  LS032:
     legal_service: Northern Community Legal Service Inc.
     address: 26 John St, Salisbury SA 5108
     area: 
-      - 
+      - CHECK
     number: 8281 6911
     email: ncls@nothernlegal.org.au
     website: https://northerncommunitylegalservice.weebly.com/contact.html 
@@ -542,23 +526,7 @@ data:
     youth: CHECK
     advisory: false
     description: The Northern Community Legal Service (NCLS) provides a free legal aid service for people living in Adelaide’s northern suburbs and the mid north.
-  LS030:
-    legal_service: Blue Knot Foundation
-    address:
-    area: 
-      - 
-    number: 1300 657 380
-    email: 
-    website: 
-    expertise:
-    gender:
-      male: 
-      female:
-    indigenous: 
-    youth: true 
-    advisory:
-    description: 
-  LS034:
+  LS033:
     legal_service: WestSide Lawyers
     address:
       - 212 Port Road Hindmarsh SA 5007
@@ -571,13 +539,13 @@ data:
     website: http://www.westsidelawyers.net/contactus.htm
     expertise: Other administration and community matters
     gender:
-      male: 
-      female:
-    indigenous: 
-    youth: 
-    advisory: 
+      male: CHECK
+      female: CHECK
+    indigenous: CHECK
+    youth: CHECK
+    advisory: CHECK
     description: WestSide Lawyers provides quality legal assistance to financially or otherwise disadvantaged people in Adelaide's western suburbs and the lower Flinders Ranges in South Australia.
-  LS035:
+  LS034:
     legal_service: Limestone Coast Community Justice Centre
     address: 8A Commercial Street, West Mount Gambier, SA 5290.
     area: 
@@ -593,7 +561,7 @@ data:
     youth: CHECK
     advisory: false
     description: Provides free legal services to the community situated in the Mount Gambier area.
-  LS036:
+  LS035:
     legal_service: Riverland Community Justice Centre
     address: 9 Kay Avenue, Berri, SA 5343 
     area: 
@@ -609,7 +577,7 @@ data:
     youth: CHECK
     advisory: false
     description: Provides free legal services to the community situated in the Riverland area.
-  LS037:
+  LS036:
     legal_service: JusticeNet
     address: Ligertwood Building, North Terrace, The University of Adelaide, Adelaide, SA 5005
     area: 
@@ -625,11 +593,11 @@ data:
     youth: CHECK
     advisory: false
     description: Provides legal service and help to low-income and disadvantaged people in South Australia.
-  LS038:
+  LS037:
     legal_service: Roma Mitchell Community Legal Centre Inc.
     address: 110 The Parade, Norwood, SA 5067
     area: 
-      - 
+      - CHECK
     number: 8362 1199
     email: rmclc@ozemail.com.au
     website: CHECK
@@ -641,22 +609,4 @@ data:
     youth: CHECK
     advisory: false
     description: Provides legal service and help to the public in South Australia.
----
-#Template
-  LS036:
-    legal_service: -
-    address: -
-    area: 
-      - CHECK 
-    number: -
-    email: -
-    website: -
-    expertise: -
-    gender:
-      male: -
-      female: -
-    indigenous: -
-    youth: -
-    advisory: -
-    description: -
 ---
