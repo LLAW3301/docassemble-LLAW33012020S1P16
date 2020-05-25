@@ -175,22 +175,22 @@ question: Matter
 fields:
   - What does your matter pertain to?: JIRMmatter
     choices:
-      - Housing
-      - Births, deaths and marriages 
-      - Equal Opportunity 
-      - Other administrative and community matters
+      - Housing: JIRMhousing
+      - Births, deaths and marriages: JIRMbdm
+      - Equal Opportunity: JIRMeo
+      - Other administrative and community matters: JIRMother_admin
       
-  - Can you be more specific?: JIRMhousingmatter
+  - Can you be more specific?: JIRMsubmatter
     show if: 
      variable: JIRMmatter
-     is: Housing
+     is: JIRMhousing
     choices: 
-      - Residential tenancy agreements
-      - Retirement villages
-      - Residential parks
-      - Rooming houses
+      - Residential tenancy agreements: JIRMrta
+      - Retirement villages: JIRMret
+      - Residential parks: JIRMres
+      - Rooming houses: JIRMroom
       
-  - Can you be more specific?: JIRMbdmmatter
+  - Can you be more specific?: JIRMsubmatter
     show if: 
      variable: JIRMmatter
      is: Births, deaths and marriages
@@ -203,7 +203,7 @@ fields:
       - Approval of an application by a child or their parent for an identity acknowledgement certificate 
       - Review of a decision of the Registrar
 
-  - Can you be more specific?: JIRMeomatter
+  - Can you be more specific?: JIRMsubmatter
     show if: 
      variable: JIRMmatter
      is: Equal Opportunity 
@@ -211,7 +211,7 @@ fields:
       - Equal Opportunity complaints 
       - Review of refusal to extend time 
       
-  - Can you be more specific?: JIRMadmincommatter
+  - Can you be more specific?: JIRMsubmatter
     show if: 
      variable: JIRMmatter
      is: Other administrative and community matters
@@ -232,7 +232,7 @@ fields:
       - Miss
   - Full Name: JIRMname
   - Age: JIRMage
-    datatype: interger
+    datatype: integer
     min: 0
     max: 122
   - Gender: JIRMgender
