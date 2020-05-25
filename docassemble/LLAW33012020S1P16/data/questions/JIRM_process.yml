@@ -1,0 +1,52 @@
+---
+objects: 
+  - JIRMmaj_category_list: DAList.using(auto_gather=False)
+  - JIRMmin_category_list: DAList.using(auto_gather=False)
+  - JIRMarea_category_list: DAList.using(auto_gather=False)
+  - JIRMyouth_list: DAList.using(auto_gather=False)
+---
+# Get a list of agencies in the major categories
+code: |
+  JIRMmaj_category_list.clear()
+  for JIRMitem in JIRMlegal_services:
+    if JIRMmatter in JIRMitem['major_category']:
+      JIRMmaj_category_list.append(JIRMitem)
+  JIRMmaj_category_list.gathered = True
+---
+# Get list of agencies in the minor categories
+code: |
+  JIRMmin_category_list.clear()
+  for JIRMitem in JIRMmaj_category_list:
+    if JIRMsubmatter in JIRMitem['minor_category']:
+      JIRMmin_category_list.append(JIRMitem)
+  JIRMmin_category_list.gathered = True
+---
+# Get list of agencies in the minor categories
+code: |
+  JIRMarea_category_list.clear()
+  for JIRMitem in JIRMmin_category_list:
+    if JIRMarea in JIRMitem['area'] or 'everyone' in JIRMitem['area']:
+      JIRMarea_category_list.append(JIRMitem)
+  JIRMarea_category_list.gathered = True
+---
+# Filter for youth
+code: |
+  JIRMyouth_list.clear()
+  for JIRMitem in JIRMarea_category_list:
+    if JIRMage < 18 and JIRMitem['youth'] == 'youth_only':
+      want_to_add = True
+    elif JIRMage >= 18 and JIRMitem['youth'] == 'adult_only':
+      want_to_add = True
+    elif JIRMitem['youth'] == 'everyone':
+      want_to_add = True
+    else:
+      want_to_add = False
+    
+    if want_to_add:
+      JIRMyouth_list.append(JIRMitem)
+
+  JIRMyouth_list.gathered=True
+---
+# Filter for indigenous
+---
+      

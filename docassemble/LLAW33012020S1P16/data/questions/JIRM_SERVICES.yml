@@ -10,7 +10,12 @@ data:
     legal_service: Tenancies Branch, Consumer and Business Services
     address: N/A
     area: 
-      - MAKE A CODE THAT WILL SHOW UP IN ALL SINCE ITS N/A CHECK
+      - everyone
+    major_category: 
+      - JIRMhousing
+    minor_category: 
+      - JIRMres EXAMPLE
+      - JIRMret EXAMPLE
     number: 131 882
     email: CHECK
     website: https://www.cbs.sa.gov.au/renting-letting-advice
@@ -19,7 +24,7 @@ data:
       male: CHECK
       female: CHECK
     indigenous: CHECK
-    youth: CHECK
+    youth: everyone
     advisory: true
     description: Gives advice for matters regarding variety of matters under renting and tenancy
   LS002:
@@ -27,11 +32,16 @@ data:
     address: 135 Currie St, Adelaide SA 500
     area: 
       - CBD
+      - North
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 060 462
     email: N/A
     website: https://www.syc.net.au/home/housing-support/tias/ 
     expertise: Housing
-    gender: CHECK
+    gender: 
      male: true
      female: true 
     indigenous: true 
@@ -152,7 +162,7 @@ data:
     description: CHECK
   LS010:
     legal_service: Community Legal Services (Western, mid north and outback) 
-    address:
+    address: CHECK
     area:
       - West
       - Mid north
@@ -280,7 +290,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
-    description: The Commission provides legal assistance: through the provision of legal advice and community legal education, and by providing legal representation for those who are most in need and unable to pay for legal representation.
+    description: 'The Commission provides legal assistance: through the provision of legal advice and community legal education, and by providing legal representation for those who are most in need and unable to pay for legal representation.'
   LS018:
     legal_service: Women’s legal services
     address: 15 Franklin street, Adelaide SA 5000
