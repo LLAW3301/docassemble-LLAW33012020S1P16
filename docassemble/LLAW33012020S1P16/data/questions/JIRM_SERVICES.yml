@@ -53,6 +53,10 @@ data:
     address: 33 Dequetteville Terrace, Kent Town, South Australia, 5067
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 8366 4300
     email: reisa@reisa.com.au
     website: https://www.reisa.com.au
@@ -69,6 +73,10 @@ data:
     address: N/A CHECK
     area: 
       - N/A CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 0419 804 509
     email: lasa.info@landlords.org.au
     website: http://www.landlords.org.au
@@ -85,6 +93,10 @@ data:
     address: N/A CHECK
     area: 
       - N/A CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 131 882
     email:  CHECK
     website: https://www.cbs.sa.gov.au/births-deaths-marriages 
@@ -101,6 +113,10 @@ data:
     address: CHECK
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 03297402394
     email: CHECK
     website: CHECK
@@ -117,6 +133,10 @@ data:
     address: Level 15, GPO Exchange, 10 Franklin Street, Adelaide, SA, 5000
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 8207 1977
     email: eoclas@adelaide.edu.au
     website: CHECK
@@ -133,6 +153,10 @@ data:
     address: CHECK
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: (08) 8207 1977
     email: EOC@sa.gov.au
     website: CHECK
@@ -149,6 +173,10 @@ data:
     address: CHECK
     area:
       - North
+    major_category:
+      -
+    minor_category:
+      -
     number: 8281 6911
     email: CHECK
     website: CHECK
@@ -167,6 +195,10 @@ data:
       - West
       - Mid north
       - Outback
+    major_category:
+      -
+    minor_category:
+      -
     number: 8340 9009
     email: CHECK
     website: CHECK
@@ -184,6 +216,10 @@ data:
     area: 
       - central CHECK
       - hills CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 8342 1800
     email: CHECK
     website: CHECK
@@ -200,6 +236,10 @@ data:
     address: CHECK
     area:
       - South
+    major_category:
+      -
+    minor_category:
+      -
     number: CHECK
     email: CHECK
     website: CHECK
@@ -216,6 +256,10 @@ data:
     address: CHECK
     area: 
       - south east
+    major_category:
+      -
+    minor_category:
+      -
     number: 8723 1396
     email: CHECK
     website: CHECK
@@ -232,6 +276,10 @@ data:
     address: CHECK
     area: 
       - Riverland
+    major_category:
+      -
+    minor_category:
+      -
     number: 8582 4998
     email: CHECK
     website: CHECK
@@ -248,6 +296,10 @@ data:
     address: 43 Franklin St, Adelaide SA, Australia 5000
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 615677
     email: enquiries@unitingcommunities.org
     website: https://www.unitingcommunities.org/services/financial-legal-services/legal-services/
@@ -264,6 +316,10 @@ data:
     address: Tower 2, Level 5, City Central, 121 King William St, Adelaide SA 5000
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 463 675
     email: info@menslegalservice.org.au
     website: https://menslegalservice.org.au/
@@ -280,6 +336,10 @@ data:
     address: 159 Gawler Place, Adelaide SA 5000
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 1300 366 424
     email: N/A
     website: https://lsc.sa.gov.au/contact
@@ -296,6 +356,10 @@ data:
     address: 15 Franklin street, Adelaide SA 5000
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 8221 5553
     email: Wsl@wlssa.org.au
     website: http://www.wlssa.org.au
@@ -312,6 +376,10 @@ data:
     address: Station Arcade, 52 Hindley street, Adelaide SA, 5000
     area: 
      - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 652 697
     email: reception@wwc.org.au
     website: www.csa.org.au
@@ -328,6 +396,10 @@ data:
     address: CHECK
     area:
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: CHECK
     email: CHECK
     website: CHECK
@@ -344,6 +416,10 @@ data:
     address: 321-325 King William street, Adelaide 5000
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 643 222
     email: N/A CHECK
     website: www.alrm.org.au
@@ -360,6 +436,10 @@ data:
     address: N/A
     area: 
       - N/A
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 019 123
     email: N/A
     website: www.dss.gov.au
@@ -381,6 +461,10 @@ data:
       - South
       - South east 
       - Riverland 
+    major_category:
+      -
+    minor_category:
+      -
     number: 1300 850 650, 08 83845222, 0887231396, 08 85824998 
     email: https://www.scjc.com.au/
     website: https://www.communityjusticesa.org.au/contact-us/
@@ -397,6 +481,10 @@ data:
     address: The University of Adelaide, SA 5000 
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 8313 5050
     email: unihealth@adelaide.edu.au
     website:  www.adelaideunicare.com.au
@@ -413,6 +501,10 @@ data:
     address: CHECK
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 7421 9985
     email: legaladvice@flinders.edu.au 
     website: legaladviceclinic.net.au
@@ -429,6 +521,10 @@ data:
     address: UniSA City West Campus, Level 1
     area:
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 8302 7436
     email: N/A
     website: www.unisa.edu.au
@@ -445,6 +541,10 @@ data:
     address: N/A CHECK
     area: 
       - N/A CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 1300 676 420
     email: N/A CHECK
     website: www.servicesaustralia.gov.au
@@ -461,6 +561,10 @@ data:
     address: N/A 
     area: 
       - N/A
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 551 800
     email: school@kidshelpline.com.au
     website: kidshelpline.com.au
@@ -477,6 +581,10 @@ data:
     address: 579 Whitehorse road, Mitcham, Victoria 3132
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 1800 176 453
     email: support@childhood.org.au 
     website: www.childhood.org.au
@@ -493,6 +601,10 @@ data:
     address: N/A
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 1300 657 380
     email: helpline@blueknot.org.au 
     website: blueknot.org.au 
@@ -509,6 +621,10 @@ data:
     address: 10 Franklin Street, Adelaide, 5000
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 1300 657 380
     email: AttorneyGeneral@sa.gov.au
     website: CHECK
@@ -525,6 +641,10 @@ data:
     address: 26 John St, Salisbury SA 5108
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 8281 6911
     email: ncls@nothernlegal.org.au
     website: https://northerncommunitylegalservice.weebly.com/contact.html 
@@ -544,6 +664,10 @@ data:
       - 72 Ellen St, Port Pirie, SA 5540
     area: 
       - west 
+    major_category:
+      -
+    minor_category:
+      -
     number: 8281 6911
     email: ncls@nothernlegal.org.au
     website: http://www.westsidelawyers.net/contactus.htm
@@ -560,6 +684,10 @@ data:
     address: 8A Commercial Street, West Mount Gambier, SA 5290.
     area: 
       - CHECK 
+    major_category:
+      -
+    minor_category:
+      -
     number: 8723 1396
     email: limestone@communityjustice.org.au 
     website: https://www.communityjusticesa.org.au 
@@ -576,6 +704,10 @@ data:
     address: 9 Kay Avenue, Berri, SA 5343 
     area: 
       - Riverland
+    major_category:
+      -
+    minor_category:
+      -
     number: 8582 4998
     email: riverland@communityjustice.org.au
     website: https://www.communityjusticesa.org.au 
@@ -592,6 +724,10 @@ data:
     address: Ligertwood Building, North Terrace, The University of Adelaide, Adelaide, SA 5005
     area: 
       - CBD
+    major_category:
+      -
+    minor_category:
+      -
     number: 8313 5005
     email: admin@justicenet.org.au
     website: http://www.justicenet.org.au
@@ -608,6 +744,10 @@ data:
     address: 110 The Parade, Norwood, SA 5067
     area: 
       - CHECK
+    major_category:
+      -
+    minor_category:
+      -
     number: 8362 1199
     email: rmclc@ozemail.com.au
     website: CHECK
