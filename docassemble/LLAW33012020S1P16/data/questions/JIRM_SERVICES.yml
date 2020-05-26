@@ -26,6 +26,7 @@ data:
     indigenous: CHECK
     youth: everyone
     advisory: true
+    interpreter: CHECK
     description: Gives advice for matters regarding variety of matters under renting and tenancy
   LS002:
     legal_service: Tenants Information and Advocacy Service (TIAS)
@@ -47,6 +48,7 @@ data:
     indigenous: true 
     youth: CHECK
     advisory: true
+    interpreter: CHECK
     description: CHECK
   LS003:
     legal_service: Real Estate Institute of South Australia
@@ -67,6 +69,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: true
+    interpreter: CHECK
     description: Provides advice regarding housing matters
   LS004:
     legal_service: Landlord's Association (SA)
@@ -87,6 +90,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: true
+    interpreter: CHECK
     description: Advice regarding tenancy
   LS005: 
     legal_service: Births, Deaths and Marriages, Consumer and Business Services
@@ -107,6 +111,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: true
+    interpreter: CHECK
     description: Provides advice regarding various matters.
   LS006:
     legal_service: Legal Services Commission 
@@ -127,6 +132,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS007:
     legal_service: Equal Opportunity Commission Legal Advice Service
@@ -147,6 +153,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS008:
     legal_service: The South Australian Equal Opportunity Commission (EOC) 
@@ -167,6 +174,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS009: 
     legal_service: Community Legal Services (North) 
@@ -187,6 +195,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS010:
     legal_service: Community Legal Services (Western, mid north and outback) 
@@ -209,6 +218,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS011:
     legal_service: Community Legal Services (Central and hills) 
@@ -230,6 +240,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS012:
     legal_service: Community Legal Services (South) 
@@ -250,6 +261,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS013:
     legal_service: Community Legal Services (South east)
@@ -270,6 +282,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS014:
     legal_service: Community Legal Services (Riverland) 
@@ -290,6 +303,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS015:
     legal_service: Uniting Communities Law Centre
@@ -310,6 +324,7 @@ data:
     indigenous: true
     youth: true
     advisory: CHECK
+    interpreter: CHECK
     description: The Law Centre provides free legal information, advice, representation, referral and assistance to the community. They provide advice on family law, minor criminal matters, traffic offences, consumer complaints, tenancy, debt, neighbourhood disputes, and employment. 
   LS016:
     legal_service: Men’s Legal Service
@@ -330,6 +345,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: false
+    interpreter: CHECK
     description: We are a not-for-profit law firm making pragmatic, cost-effective legal services available to men at turning points in the lives of men and their families. 
   LS017:
     legal_service: Legal Services Commission
@@ -350,6 +366,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: 'The Commission provides legal assistance: through the provision of legal advice and community legal education, and by providing legal representation for those who are most in need and unable to pay for legal representation.'
   LS018:
     legal_service: Women’s legal services
@@ -370,6 +387,7 @@ data:
     indigenous: true
     youth: false
     advisory: false
+    interpreter: CHECK
     description: A community based legal centre that provides free legal services to women in South Australia.
   LS019:
     legal_service: Working women’s center
@@ -390,6 +408,7 @@ data:
     indigenous: true
     youth: false
     advisory: CHECK
+    interpreter: CHECK
     description: Working women’s centres provide information, support, advice and advocacy services to women on work-related issues.
   LS020:
     legal_service: 1800RESPECT helpline
@@ -410,6 +429,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: CHECK
   LS021:
     legal_service: Aboriginal legal rights movement
@@ -430,6 +450,7 @@ data:
     indigenous: true
     youth: false
     advisory: false
+    interpreter: CHECK
     description: Providing comprehensive legal advice and assistance to people of Aboriginal descent.
   LS022:
     legal_service: Aboriginal Family Domestic Violence Hotline
@@ -450,6 +471,7 @@ data:
     indigenous: true
     youth: false
     advisory: true
+    interpreter: CHECK
     description: 24-hour support for people impacted by Assault, Domestic or family violence and abuse.
   LS023:
     legal_service: Community Justice Services SA 
@@ -475,6 +497,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: We provide free legal advice in the areas of civil, criminal, family and immigration low to most members of the community and free court representation in both the State and Federal Courts as well as case work, subject to eligibility. 
   LS024:
     legal_service: University of Adelaide student clinic
@@ -495,6 +518,7 @@ data:
     indigenous: CHECK
     youth: true
     advisory: false
+    interpreter: CHECK
     description: Providing quality care to students.  
   LS025:
     legal_service: Flinders university advice clinic
@@ -515,6 +539,7 @@ data:
     indigenous: CHECK
     youth: true
     advisory: false
+    interpreter: CHECK
     description: Providing free legal advice.
   LS026:
     legal_service: UniSA Legal Advice Clinic
@@ -535,6 +560,7 @@ data:
     indigenous: CHECK
     youth: true
     advisory: false
+    interpreter: CHECK
     description: Provides legal advice on a range of matters including criminal, family, debt claims, car accidents, tenancy and more.
   LS027:
     legal_service: Child support Helpline
@@ -553,8 +579,9 @@ data:
       male: true
       female: true
     indigenous: true
-    youth: true  CHECKKKK
+    youth: true  CHECK - why would a child need child support payment help??
     advisory: true
+    interpreter: CHECK
     description: Support services regarding child support payments.  
   LS028:
     legal_service: Kid's helpline
@@ -575,6 +602,7 @@ data:
     indigenous: CHECK
     youth: true
     advisory: true
+    interpreter: CHECK
     description: Support for children in abusive domestic family environments or situations.
   LS029:
     legal_service: Australian Childhood Foundation
@@ -595,6 +623,7 @@ data:
     indigenous: CHECK
     youth: true
     advisory: true
+    interpreter: CHECK
     description: Support for children affected by trauma or child abuse and family violence.
   LS030:
     legal_service: Blue Knot Foundation
@@ -615,6 +644,7 @@ data:
     indigenous: CHECK 
     youth: true
     advisory: true
+    interpreter: CHECK
     description: Children suffering with childhood trauma – counselling services. 
   LS031:
     legal_service: The South Australian Equal Opportunity Commission 
@@ -635,6 +665,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: AGD delivers legal infrastructure for South Australia that is just, equitable and robust, with a focus on prevention. We promote fair, timely and economical access to justice by providing legal, civil, prosecutorial and legislative services to the community, ministers and agencies across government, as well as specialist policy advice.
   LS032:
     legal_service: Northern Community Legal Service Inc.
@@ -655,6 +686,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: false
+    interpreter: CHECK
     description: The Northern Community Legal Service (NCLS) provides a free legal aid service for people living in Adelaide’s northern suburbs and the mid north.
   LS033:
     legal_service: WestSide Lawyers
@@ -678,6 +710,7 @@ data:
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
+    interpreter: CHECK
     description: WestSide Lawyers provides quality legal assistance to financially or otherwise disadvantaged people in Adelaide's western suburbs and the lower Flinders Ranges in South Australia.
   LS034:
     legal_service: Limestone Coast Community Justice Centre
@@ -698,6 +731,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: false
+    interpreter: CHECK
     description: Provides free legal services to the community situated in the Mount Gambier area.
   LS035:
     legal_service: Riverland Community Justice Centre
@@ -718,6 +752,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: false
+    interpreter: CHECK
     description: Provides free legal services to the community situated in the Riverland area.
   LS036:
     legal_service: JusticeNet
@@ -738,6 +773,7 @@ data:
     indigenous: true
     youth: CHECK
     advisory: false
+    interpreter: CHECK
     description: Provides legal service and help to low-income and disadvantaged people in South Australia.
   LS037:
     legal_service: Roma Mitchell Community Legal Centre Inc.
@@ -758,5 +794,6 @@ data:
     indigenous: true
     youth: CHECK
     advisory: false
+    interpreter: CHECK
     description: Provides legal service and help to the public in South Australia.
 ---
