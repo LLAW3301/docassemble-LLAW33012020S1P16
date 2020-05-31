@@ -14,125 +14,118 @@ data:
     major_category: 
       - JIRMhousing
     minor_category: 
-      - JIRMres EXAMPLE
-      - JIRMret EXAMPLE
+      - JIRMres 
+      - JIRMret 
+      - JIRMrta
+      - JIRMrh
     number: 131 882
-    email: CHECK
+    email: N/A
     website: https://www.cbs.sa.gov.au/renting-letting-advice
-    expertise: Housing
-    gender:
-      male: CHECK
-      female: CHECK
-    indigenous: CHECK
+    gender: everyone
+    indigenous: everyone
     youth: everyone
     advisory: true
     interpreter: CHECK
     description: Gives advice for matters regarding variety of matters under renting and tenancy
   LS002:
     legal_service: Tenants Information and Advocacy Service (TIAS)
-    address: 135 Currie St, Adelaide SA 500
+    address: 135 Currie St, Adelaide SA 5000
     area: 
       - CBD
       - North
     major_category:
-      -
+      - JIRMhousing
     minor_category:
-      - 
+      - JIRMrta
+      - JIRMrh
     number: 1800 060 462
     email: N/A
     website: https://www.syc.net.au/home/housing-support/tias/ 
-    expertise: Housing
-    gender: 
-     male: true
-     female: true 
-    indigenous: true 
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: true
-    interpreter: CHECK
-    description: CHECK
+    interpreter: false
+    description: Free independent service relating to tenancies in private rental, community housing or public housing.
   LS003:
     legal_service: Real Estate Institute of South Australia
-    address: 33 Dequetteville Terrace, Kent Town, South Australia, 5067
+    address: 33 Dequetteville Terrace, Kent Town, South Australia 5067
     area: 
       - CHECK
     major_category:
-      -
+      - JIRMhousing
     minor_category:
-      -
+      - JIRMrta
     number: 8366 4300
     email: reisa@reisa.com.au
     website: https://www.reisa.com.au
-    expertise: Housing
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: adult_only
     advisory: true
-    interpreter: CHECK
+    interpreter: false
     description: Provides advice regarding housing matters
   LS004:
-    legal_service: Landlord's Association (SA)
-    address: N/A CHECK
+    legal_service: Landlord's Association SA
+    address: Postal address- GPO Box 2486, Adelaide, SA, 5001
     area: 
-      - N/A CHECK
+      - everyone
     major_category:
-      -
+      - JIRMhousing
     minor_category:
-      -
+      - JIRMrta
+      - JIRMrh
     number: 0419 804 509
     email: lasa.info@landlords.org.au
     website: http://www.landlords.org.au
-    expertise: Housing
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: adult_only
     advisory: true
-    interpreter: CHECK
+    interpreter: false
     description: Advice regarding tenancy
   LS005: 
     legal_service: Births, Deaths and Marriages, Consumer and Business Services
-    address: N/A CHECK
+    address: N/A
     area: 
-      - N/A CHECK
+      - everyone
     major_category:
-      -
+      - JIRMbdm
     minor_category:
-      -
+      - JIRMnamedispute
+      - JIRMnameapproval
+      - JIRMdeathcorrection
+      - JIRMdeathorder
+      - JIRMidentityacknowledgement
+      - JIRMregistrarrevivew
+      - JIRMgenderapproval
     number: 131 882
-    email:  CHECK
+    email:  N/A
     website: https://www.cbs.sa.gov.au/births-deaths-marriages 
-    expertise: Births, deaths and marriages
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: true
     interpreter: CHECK
-    description: Provides advice regarding various matters.
+    description: Provides advice regarding various matters relating to Births, Deaths and Marriages.
   LS006:
-    legal_service: Legal Services Commission 
-    address: CHECK
+    legal_service: Legal Services Commission - Adelaide Office
+    address: 159 Gawler Place, Adelaide SA 5000
     area: 
-      - CHECK
+      - everyone
     major_category:
-      -
+      - JIRMother_admin
+      - JIRMeo
     minor_category:
-      -
-    number: 03297402394
-    email: CHECK
-    website: CHECK
-    expertise: Births, deaths and marriages
-    gender:
-      male: CHECK
-      female: CHECK
-    indigenous: CHECK
-    youth: CHECK
+      - BLANK
+    number: 8111 5555
+    email: N/A
+    website: https://lsc.sa.gov.au/
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: CHECK
-    interpreter: CHECK
+    interpreter: false
     description: CHECK
   LS007:
     legal_service: Equal Opportunity Commission Legal Advice Service
@@ -140,37 +133,32 @@ data:
     area: 
       - CBD
     major_category:
-      -
+      - JIRMeo
     minor_category:
-      -
+      - JIRMeocomplaints
+      - JIRMtimerefusal
     number: 8207 1977
     email: eoclas@adelaide.edu.au
-    website: CHECK
-    expertise: Equal opportunity 
-    gender:
-      male: CHECK 
-      female: CHECK
-    indigenous: CHECK
-    youth: CHECK
-    advisory: CHECK
-    interpreter: CHECK
-    description: CHECK
+    website: https://eoc.sa.gov.au/index.php/
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
+    advisory: true
+    interpreter: false 
+    description: Assist South Australians to resolve complaints of discrimination, sexual harassment or victimisation under equal opportunity laws. Promote equality.
   LS008:
-    legal_service: The South Australian Equal Opportunity Commission (EOC) 
+    legal_service: BLANK
     address: CHECK
     area: 
       - CHECK
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
-    number: (08) 8207 1977
-    email: EOC@sa.gov.au
+      - BLANK
+    number: BLANK
+    email: BLANK
     website: CHECK
-    expertise: Equal opportunity 
-    gender:
-      male: CHECK
-      female: CHECK
+    gender: CHECK
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
@@ -178,47 +166,41 @@ data:
     description: CHECK
   LS009: 
     legal_service: Community Legal Services (North) 
-    address: CHECK
+    address: 26 John St, Salisbury SA 5108
     area:
       - North
     major_category:
-      -
+      - JIRMhousing
     minor_category:
-      -
+      - JIRMrta
     number: 8281 6911
-    email: CHECK
-    website: CHECK
-    expertise: Other administration and community matters
-    gender: 
-      male: CHECK
-      female: CHECK
+    email: ncls@nothernlegal.org.au
+    website: https://northerncommunitylegalservice.weebly.com/contact.html
+    gender: everyone
     indigenous: CHECK
-    youth: CHECK
+    youth: adult_only
     advisory: CHECK
-    interpreter: CHECK
-    description: CHECK
+    interpreter: false
+    description: The Northern Community Legal Service (NCLS) provides a free legal aid service for people living in Adelaide’s northern suburbs.
   LS010:
     legal_service: Community Legal Services (Western, mid north and outback) 
-    address: CHECK
+    address: 26 John St, Salisbury SA 5108
     area:
       - West
       - Mid north
       - Outback
     major_category:
-      -
+      - JIRMotheradmin
     minor_category:
-      -
+      - CHECK
     number: 8340 9009
     email: CHECK
     website: CHECK
-    expertise: Other administration and community matters
-    gender:
-      male: CHECK
-      female: CHECK
-    indigenous: CHECK
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: CHECK
-    interpreter: CHECK
+    interpreter: true
     description: CHECK
   LS011:
     legal_service: Community Legal Services (Central and hills) 
@@ -227,104 +209,91 @@ data:
       - central CHECK
       - hills CHECK
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
+      - BLANK
     number: 8342 1800
     email: CHECK
     website: CHECK
-    expertise: Other administration and community matters
-    gender:
-      male: CHECK
-      female: CHECK
+    gender: BLANK
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
     interpreter: CHECK
     description: CHECK
   LS012:
-    legal_service: Community Legal Services (South) 
-    address: CHECK
+    legal_service: Community Legal Services (South and south east) 
+    address: 40 Beach Rd, Christies Beach 5165
     area:
       - South
+      - South east
     major_category:
-      -
+      - JIRMother_admin
     minor_category:
-      -
-    number: CHECK
-    email: CHECK
-    website: CHECK
-    expertise: Other administration and community matters
-    gender:
-      male: CHECK
-      female: CHECK
-    indigenous: CHECK
-    youth: CHECK
+      - BLANK
+    number: 8723 1396
+    email: N/A
+    website: https://www.communityjusticesa.org.au/contact-us/
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: CHECK
-    interpreter: CHECK
-    description: CHECK
+    interpreter: true
+    description: We provide free legal advice in the areas of civil, criminal, family and immigration low to most members of the community and free court representation in both the State and Federal Courts as well as case work, subject to eligibility.
   LS013:
     legal_service: Community Legal Services (South east)
     address: CHECK
     area: 
-      - south east
+      - South east
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
+      - BLANK
     number: 8723 1396
     email: CHECK
     website: CHECK
-    expertise: Other administration and community matters
-    gender:
-      male: CHECK
-      female: CHECK
+    gender: BLANK
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
     interpreter: CHECK
     description: CHECK
   LS014:
-    legal_service: Community Legal Services (Riverland) 
-    address: CHECK
+    legal_service: Riverland Community Justice Centre 
+    address: 9 Kay Ave, Berri, SA 5343 
     area: 
       - Riverland
     major_category:
-      -
+      - JIRMother_admin
+      - JIRMhousing
     minor_category:
-      -
+      - JIRMrta
     number: 8582 4998
-    email: CHECK
-    website: CHECK
-    expertise: Other administration and community matters
-    gender:
-      male: CHECK
-      female: CHECK
-    indigenous: CHECK
-    youth: CHECK
-    advisory: CHECK
-    interpreter: CHECK
-    description: CHECK
+    email: riverland@communityjustice.org.au
+    website: https://sacommunity.org/org/235092Riverland_Community_Justice_Centre
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
+    advisory: false
+    interpreter: true
+    description: Provides free legal services to the community situated in the Riverland area. 
   LS015:
     legal_service: Uniting Communities Law Centre
     address: 43 Franklin St, Adelaide SA, Australia 5000
     area: 
       - CBD
     major_category:
-      -
+      - JIRMhousing
     minor_category:
-      -
-    number: 1800 615677
+      - JIRMrta
+    number: 8342 1800 
     email: enquiries@unitingcommunities.org
     website: https://www.unitingcommunities.org/services/financial-legal-services/legal-services/
-    expertise: Other administration and community matters
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: true
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: CHECK
-    interpreter: CHECK
+    interpreter: false
     description: The Law Centre provides free legal information, advice, representation, referral and assistance to the community. They provide advice on family law, minor criminal matters, traffic offences, consumer complaints, tenancy, debt, neighbourhood disputes, and employment. 
   LS016:
     legal_service: Men’s Legal Service
@@ -332,60 +301,52 @@ data:
     area: 
       - CBD
     major_category:
-      -
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 1800 463 675
     email: info@menslegalservice.org.au
     website: https://menslegalservice.org.au/
-    expertise: CHECK
-    gender:
-      male: true
-      female: false
-    indigenous: CHECK
-    youth: CHECK
+    gender: male_only
+    indigenous: everyone
+    youth: everyone
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: We are a not-for-profit law firm making pragmatic, cost-effective legal services available to men at turning points in the lives of men and their families. 
   LS017:
-    legal_service: Legal Services Commission
-    address: 159 Gawler Place, Adelaide SA 5000
+    legal_service: CHECK
+    address: CHECK
     area: 
       - CHECK
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
-    number: 1300 366 424
-    email: N/A
-    website: https://lsc.sa.gov.au/contact
-    expertise: Housing
-    gender:
-      male: true
-      female: false
+      - BLANK
+    number: BLANK
+    email: BLANK
+    website: BLANK
+    gender: BLANK
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
     interpreter: CHECK
-    description: 'The Commission provides legal assistance: through the provision of legal advice and community legal education, and by providing legal representation for those who are most in need and unable to pay for legal representation.'
+    description: BLANK
   LS018:
     legal_service: Women’s legal services
     address: 15 Franklin street, Adelaide SA 5000
     area: 
-      - CHECK
+      - everyone
     major_category:
-      -
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 8221 5553
     email: Wsl@wlssa.org.au
     website: http://www.wlssa.org.au
-    expertise: CHECK
-    gender:
-      male: false
-      female: true
-    indigenous: true
-    youth: false
+    gender: female_only
+    indigenous: everyone
+    youth: adult_only
     advisory: false
     interpreter: CHECK
     description: A community based legal centre that provides free legal services to women in South Australia.
@@ -395,151 +356,137 @@ data:
     area: 
      - CBD
     major_category:
-      -
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 1800 652 697
     email: reception@wwc.org.au
     website: www.csa.org.au
-    expertise:
-    gender:
-      male: false
-      female: true
-    indigenous: true
-    youth: false
-    advisory: CHECK
-    interpreter: CHECK
+    gender: female_only
+    indigenous: everyone
+    youth: adult_only
+    advisory: true
+    interpreter: true
     description: Working women’s centres provide information, support, advice and advocacy services to women on work-related issues.
   LS020:
     legal_service: 1800RESPECT helpline
-    address: CHECK
+    address: N/A
     area:
-      - CHECK
+      - everyone
     major_category:
-      -
+      - JIRMhousing
+      - JIRMbdm
+      - JIRMeo
+      - JIRMadmin
     minor_category:
-      -
-    number: CHECK
-    email: CHECK
-    website: CHECK
-    expertise: CHECK
-    gender:
-      male: false
-      female: true
-    indigenous: CHECK
-    youth: CHECK
-    advisory: CHECK
-    interpreter: CHECK
-    description: CHECK
+      - CHECK
+    number: 1800 737 732
+    email: Bucky.toller@medibank.com.au
+    website: www.1800respect.org.au
+    gender: everyone
+    indigenous: everyone
+    youth: adult_only
+    advisory: true
+    interpreter: true
+    description: Support for individuals on a national level going through any form of violence.
   LS021:
     legal_service: Aboriginal legal rights movement
     address: 321-325 King William street, Adelaide 5000
     area: 
       - CBD
     major_category:
-      -
+      - JIRMhousing
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
       -
     number: 1800 643 222
-    email: N/A CHECK
+    email: N/A 
     website: www.alrm.org.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: false
+    gender: everyone
+    indigenous: indig_only
+    youth: adult_only
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: Providing comprehensive legal advice and assistance to people of Aboriginal descent.
   LS022:
     legal_service: Aboriginal Family Domestic Violence Hotline
     address: N/A
     area: 
-      - N/A
+      - everyone
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
+      - BLANK
     number: 1800 019 123
     email: N/A
     website: www.dss.gov.au
-    expertise: CHECK
-    gender:
-      male: true 
-      female: true
-    indigenous: true
-    youth: false
+    gender: everyone
+    indigenous: indig_only
+    youth: adult_only
     advisory: true
     interpreter: CHECK
     description: 24-hour support for people impacted by Assault, Domestic or family violence and abuse.
   LS023:
-    legal_service: Community Justice Services SA 
+    legal_service: BLANK
     address:
-      - 40 Beach Rd, Christies Beach 5165
-      - 8a Commercial St, West Mt Gambier 5290
-      - 9 Kay Av, Berri 5343
+      -  CHECK
     area: 
-      - South
-      - South east 
-      - Riverland 
+      - BLANK
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
-    number: 1300 850 650, 08 83845222, 0887231396, 08 85824998 
-    email: https://www.scjc.com.au/
-    website: https://www.communityjusticesa.org.au/contact-us/
-    expertise: Other administration and community matters
-    gender:
-      male: CHECK
-      female: CHECK
+      - BLANK
+    number: BLANK
+    email: BLANK
+    website: BLANK
+    gender: BLANK
     indigenous: CHECK
     youth: CHECK
     advisory: CHECK
     interpreter: CHECK
-    description: We provide free legal advice in the areas of civil, criminal, family and immigration low to most members of the community and free court representation in both the State and Federal Courts as well as case work, subject to eligibility. 
+    description: BLANK
   LS024:
-    legal_service: University of Adelaide student clinic
+    legal_service: University of Adelaide Student Clinic
     address: The University of Adelaide, SA 5000 
     area: 
       - CBD
     major_category:
-      -
+      - JIRMhousing
+      - JIRMbdm
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - CHECK
     number: 8313 5050
     email: unihealth@adelaide.edu.au
     website:  www.adelaideunicare.com.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
+    gender: everyone
     indigenous: CHECK
     youth: true
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: Providing quality care to students.  
   LS025:
-    legal_service: Flinders university advice clinic
-    address: CHECK
+    legal_service: Flinders University Advice Clinic
+    address: Level 1 of Student Hub, Bedford Park campus
     area: 
-      - CHECK
+      - South
     major_category:
-      -
+      - JIRMhousing
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - CHECK
     number: 7421 9985
     email: legaladvice@flinders.edu.au 
     website: legaladviceclinic.net.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
+    gender: everyone
     indigenous: CHECK
     youth: true
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: Providing free legal advice.
   LS026:
     legal_service: UniSA Legal Advice Clinic
@@ -547,104 +494,96 @@ data:
     area:
       - CBD
     major_category:
-      -
+      - JIRMhousing
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 8302 7436
     email: N/A
     website: www.unisa.edu.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
+    gender: everyone
     indigenous: CHECK
-    youth: true
+    youth: everyone
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: Provides legal advice on a range of matters including criminal, family, debt claims, car accidents, tenancy and more.
   LS027:
     legal_service: Child support Helpline
-    address: N/A CHECK
+    address: N/A
     area: 
-      - N/A CHECK
+      - everyone
     major_category:
-      -
+      - JIRMhousing
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 1300 676 420
-    email: N/A CHECK
+    email: N/A 
     website: www.servicesaustralia.gov.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: true  CHECK - why would a child need child support payment help??
+    gender: everyone
+    indigenous: everyone
+    youth: adult_only
     advisory: true
-    interpreter: CHECK
+    interpreter: true
     description: Support services regarding child support payments.  
   LS028:
     legal_service: Kid's helpline
     address: N/A 
     area: 
-      - N/A
+      - everyone
     major_category:
-      -
+      - JIRMhousing
+      - JIRMbdm
+      - JIRMeo
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 1800 551 800
     email: school@kidshelpline.com.au
     website: kidshelpline.com.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: CHECK
-    youth: true
+    gender: everyone
+    indigenous: everyone
+    youth: youth_only
     advisory: true
-    interpreter: CHECK
+    interpreter: true
     description: Support for children in abusive domestic family environments or situations.
   LS029:
     legal_service: Australian Childhood Foundation
     address: 579 Whitehorse road, Mitcham, Victoria 3132
     area: 
-      - CHECK
+      - everyone
     major_category:
-      -
+      - JIRMother_admin
     minor_category:
-      -
+      - BLANK
     number: 1800 176 453
     email: support@childhood.org.au 
     website: www.childhood.org.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: CHECK
-    youth: true
+    gender: everyone
+    indigenous: everyone
+    youth: youth_only
     advisory: true
-    interpreter: CHECK
+    interpreter: false
     description: Support for children affected by trauma or child abuse and family violence.
   LS030:
     legal_service: Blue Knot Foundation
     address: N/A
     area: 
-      - CHECK
+      - everyone
     major_category:
-      -
+      - JIRMother_admin
     minor_category:
-      -
+      - CHECK
     number: 1300 657 380
     email: helpline@blueknot.org.au 
     website: blueknot.org.au 
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: CHECK 
+    gender: everyone
+    indigenous: everyone
     youth: true
     advisory: true
-    interpreter: CHECK
+    interpreter: false
     description: Children suffering with childhood trauma – counselling services. 
   LS031:
     legal_service: The South Australian Equal Opportunity Commission 
@@ -652,58 +591,50 @@ data:
     area: 
       - CBD
     major_category:
-      -
+      - JIRMeo
     minor_category:
-      -
-    number: 1300 657 380
+      - JIRMeocomplaints
+    number: 8207 1723
     email: AttorneyGeneral@sa.gov.au
-    website: CHECK
-    expertise: Equal opportunity
-    gender:
-      male: CHECK
-      female: CHECK
-    indigenous: CHECK
-    youth: CHECK
+    website: https://www.agd.sa.gov.au
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: CHECK
-    interpreter: CHECK
+    interpreter: false
     description: AGD delivers legal infrastructure for South Australia that is just, equitable and robust, with a focus on prevention. We promote fair, timely and economical access to justice by providing legal, civil, prosecutorial and legislative services to the community, ministers and agencies across government, as well as specialist policy advice.
   LS032:
     legal_service: Northern Community Legal Service Inc.
     address: 26 John St, Salisbury SA 5108
     area: 
-      - CHECK
+      - North
     major_category:
-      -
+      - JIRMeo
     minor_category:
-      -
+      - BLANK
     number: 8281 6911
     email: ncls@nothernlegal.org.au
     website: https://northerncommunitylegalservice.weebly.com/contact.html 
-    expertise: Other administration and community matters
-    gender:
-      male: true 
-      female: true
-    indigenous: true
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: The Northern Community Legal Service (NCLS) provides a free legal aid service for people living in Adelaide’s northern suburbs and the mid north.
   LS033:
     legal_service: WestSide Lawyers
     address:
       - 212 Port Road Hindmarsh SA 5007
-      - Flinders Arcade
       - 72 Ellen St, Port Pirie, SA 5540
     area: 
-      - west 
+      - West 
     major_category:
-      -
+      - BLANK
     minor_category:
-      -
+      - BLANK
     number: 8281 6911
     email: ncls@nothernlegal.org.au
     website: http://www.westsidelawyers.net/contactus.htm
-    expertise: Other administration and community matters
     gender:
       male: CHECK
       female: CHECK
@@ -718,82 +649,69 @@ data:
     area: 
       - CHECK 
     major_category:
-      -
+      - JIRMhousing
+      - JIRMother_admin
     minor_category:
-      -
+      - JIRMrta
     number: 8723 1396
     email: limestone@communityjustice.org.au 
     website: https://www.communityjusticesa.org.au 
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: true
+    gender: everyone
+    indigenous: everyone
     youth: CHECK
     advisory: false
-    interpreter: CHECK
-    description: Provides free legal services to the community situated in the Mount Gambier area.
+    interpreter: false
+    description: Provides free legal services to the community situated in the Mount Gambier area. 
   LS035:
-    legal_service: Riverland Community Justice Centre
-    address: 9 Kay Avenue, Berri, SA 5343 
-    area: 
-      - Riverland
-    major_category:
-      -
-    minor_category:
-      -
-    number: 8582 4998
-    email: riverland@communityjustice.org.au
-    website: https://www.communityjusticesa.org.au 
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: CHECK
-    advisory: false
-    interpreter: CHECK
-    description: Provides free legal services to the community situated in the Riverland area.
-  LS036:
     legal_service: JusticeNet
     address: Ligertwood Building, North Terrace, The University of Adelaide, Adelaide, SA 5005
     area: 
-      - CBD
+      - everyone
     major_category:
-      -
+      - JIRMhousing
+      - JIRMeo
+      - JIRMbdm
+      - JIRMother_admin
     minor_category:
-      -
+      - JIRMrta
+      - JIRMret
+      - JIRMres
+      - JIRMrh
+      - JIRMnamedispute
+      - JIRMnameapproval
+      - JIRMdeathcorrection
+      - JIRMdeathorder
+      - JIRMidentityacknowledgement
+      - JIRMregistrarrevivew
+      - JIRMgenderapproval
+      - JIRMeocomplaints
+      - JIRMtimerefusal
     number: 8313 5005
     email: admin@justicenet.org.au
     website: http://www.justicenet.org.au
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: true
-    youth: CHECK
+    gender: everyone
+    indigenous: everyone
+    youth: everyone
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: Provides legal service and help to low-income and disadvantaged people in South Australia.
-  LS037:
+  LS036:
     legal_service: Roma Mitchell Community Legal Centre Inc.
     address: 110 The Parade, Norwood, SA 5067
     area: 
       - CHECK
     major_category:
-      -
+      - JIRMother_admin
+      - JIRMhousing
     minor_category:
-      -
+      - JIRMres
     number: 8362 1199
     email: rmclc@ozemail.com.au
-    website: CHECK
-    expertise: CHECK
-    gender:
-      male: true
-      female: true
-    indigenous: true
+    website: http://members.ozemail.com.au/~rmclc/
+    gender: everyone
+    indigenous: everyone
     youth: CHECK
     advisory: false
-    interpreter: CHECK
+    interpreter: false
     description: Provides legal service and help to the public in South Australia.
 ---
