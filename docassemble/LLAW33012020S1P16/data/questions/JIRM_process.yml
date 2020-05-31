@@ -4,6 +4,8 @@ objects:
   - JIRMmin_category_list: DAList.using(auto_gather=False)
   - JIRMarea_category_list: DAList.using(auto_gather=False)
   - JIRMyouth_list: DAList.using(auto_gather=False)
+  - JIRMindig_list: DAList.using(auto_gather=False)
+  - JIRMgender_list: DAList.using(auto_gather=False)
 ---
 # Get a list of agencies in the major categories
 code: |
@@ -44,7 +46,6 @@ code: |
     
     if want_to_add:
       JIRMyouth_list.append(JIRMitem)
-
   JIRMyouth_list.gathered=True
 ---
 # Filter for indigenous
@@ -53,7 +54,11 @@ code: |
   for JIRMitem in JIRMyouth_list:
     if JIRMaboriginalortsi = Yes and JIRMitem['indigenous'] == 'indig_only':
       want_to_add = True
+    elif JIRMaboriginalortsi = Yes and JIRMitem['indigenous'] == 'everyone':
+      want_to_add = True
     elif JIRMaboriginalortsi = Prefer not to answer and JIRMitem['indigenous'] == 'everyone':
+      want_to_add = True
+    elif JIRMaboriginalortsi = No and JIRMitem['indigenous'] == 'everyone':
       want_to_add = True
     elif JIRMitem['indigenous'] == 'everyone':
       want_to_add = True
@@ -62,7 +67,30 @@ code: |
     
     if want_to_add:
       JIRMindig_list.append(JIRMitem)
-
-  JIRMyouth_list.gathered=True
+  JIRMindig_list.gathered=True
 ---
-      
+# Filter for gender
+code: |
+  JIRMgender_list.clear()
+  for JIRMitem in JIRMindig_list:
+    if JIRMgender = Male and JIRMitem['gender'] == 'male_only':
+      want_to_add = True
+    elif JIRMgender = Male and JIRMitem['gender'] == 'everyone':
+      want_to_add = True
+    elif JIRMgender = Female and JIRMitem['gender'] == 'female_only':
+      want_to_add = True
+    elif JIRMgender = Female and JIRMitem['gender'] == 'everyone':
+      want_to_add = True
+    elif JIRMgender = Prefer not to say and JIRMitem['gender'] == 'everyone':
+      want_to_add = True
+    elif JIRMgender = Other and JIRMitem['gender'] == 'everyone':
+      want_to_add = True
+    elif JIRMitem['gender'] == 'everyone':
+      want_to_add = True
+    else:
+      want_to_add = False
+    
+    if want_to_add:
+      JIRMgender_list.append(JIRMitem)
+  JIRMgender_list.gathered=True
+---

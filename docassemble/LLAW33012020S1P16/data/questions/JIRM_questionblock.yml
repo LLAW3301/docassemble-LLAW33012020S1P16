@@ -42,28 +42,28 @@ fields:
       - Residential tenancy agreements: JIRMrta
       - Retirement villages: JIRMret
       - Residential parks: JIRMres
-      - Rooming houses: JIRMroom
+      - Rooming houses: JIRMrh
       
   - Can you be more specific?: JIRMsubmatter
     show if: 
      variable: JIRMmatter
      is: JIRMbdm
     choices: 
-      - Dispute between parents about a child's name
-      - Approval of an application by a parent to change a child's name
-      - Order the registration of death
-      - Correct registration of death
-      - Approval of an application by a child or their parent to register a change of the child's sex or gender identity 
-      - Approval of an application by a child or their parent for an identity acknowledgement certificate 
-      - Review of a decision of the Registrar
+      - Dispute between parents about a child's name: JIRMnamedispute
+      - Approval of an application by a parent to change a child's name: JIRMnameapproval
+      - Order the registration of death: JIRMdeathorder
+      - Correct registration of death: JIRMdeathcorrection
+      - Approval of an application by a child or their parent to register a change of the child's sex or gender identity: JIRMgenderapproval 
+      - Approval of an application by a child or their parent for an identity acknowledgement certificate: JIRMidentityacknowledgement 
+      - Review of a decision of the Registrar: JIRMregistrarreview
 
   - Can you be more specific?: JIRMsubmatter
     show if: 
      variable: JIRMmatter
      is: JIRMeo
     choices: 
-      - Equal Opportunity complaints 
-      - Review of refusal to extend time 
+      - Equal Opportunity complaints: JIRMeocomplaints
+      - Review of refusal to extend time: JIRMtimerefusal
       
   - Can you be more specific?: JIRMsubmatter
     show if: 
