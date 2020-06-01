@@ -1,0 +1,55 @@
+#Graphics
+---
+default screen parts:
+  post: |
+    <div style="display: flex; height: 200px; align-items: flex-end; flex-direction: row-reverse">
+    <div style="margin: 5px"><img src="https://staff.flinders.edu.au/etc.clientlibs/flinders/clientlibs/clientlib-site/resources/images/flinderuni_main_logo_black.png" height="40">
+    </div>
+    <div style="margin: 5px; text-align: center">
+    <cite><small><i>
+    Developed by Flinders University in collaboration with SACAT
+    </i></small></cite>
+    </div>
+    </div>
+---
+image sets:
+  docassemble:
+    attribution: |
+      This is the image attribution.
+    images:
+      star: star.svg
+---
+objects:
+  - endpoint: DADict
+  - SACATlogo: DAStaticFile.using(filename='SACAT.png')
+---
+features:
+  css: SACAT.css
+  debug: false
+  hide standard menu: False
+---
+mandatory: True
+decoration: star
+code: |
+  # This line extracts all the metadata into a python dictionary.  We do
+  # this so we can extract the title from the dictionary.  Visit
+  # https://docassemble.org/docs/functions.html#all_variables for 
+  # more information
+  HAAmetadata = all_variables(special='metadata')
+
+  # We store a string containing the raw HTML in HAAlogostring
+  # We use the += sign to append to the string.
+  HAAlogostring = '<div class="media"><img src="'
+  
+  # This line adds the image file as a URL to the HTML code.
+  HAAlogostring += SACATlogo.url_for()
+  
+  # The rest of the raw HTML is appeneded to HAAlogostring...
+  # Note: this line is where you set the height of your logo.  The width 
+  # is calculated automatically.
+  HAAlogostring += '" class="mr-3" height="50">'
+  HAAlogostring += '<div class="media-body">'
+  HAAlogostring += '</div></div>'
+  # ...and we use set_parts() to set our new logo metadata
+  set_parts(logo=HAAlogostring)
+---

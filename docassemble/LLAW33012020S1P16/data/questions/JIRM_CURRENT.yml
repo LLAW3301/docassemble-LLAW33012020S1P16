@@ -12,6 +12,7 @@ metadata:
     - name: Mary Nguyen
     - name: Jashoda Rawat
   organisation:  Flinders University
+  show login: False
 ---
 # Interview help button, pretty cool feature we could include
 interview help:
@@ -24,6 +25,7 @@ include:
   - JIRM_SERVICES.yml
   - JIRM_questionblock.yml
   - JIRM_process.yml
+  - JIRM_graphics.yml
 ---
 # SACAT Welcome Screen
 mandatory: True
@@ -40,7 +42,7 @@ subquestion: |
   The service provided by this application is to provide contact details and resources   for legal services in South Australia. No guarantees can be made that any individual   service will provide services or advice to you.
 
   **Do you understand and accept these terms and wish to continue?**
-
+  
 buttons:
   - "I accept and want to continue": continue
   - "I do not accept": exit
@@ -74,7 +76,6 @@ subquestion: |
 ---
 # JIRM LAST SCREEN IF ALL IS ELIGIBLE
 # All variables must be included here to trigger their question block
-# Do NOT forget to add attachment!!!!!!!!!!!!!!!!!!
 event: endpoint['JIRMeligible']
 question: Results 
 subquestion: |
@@ -84,55 +85,21 @@ subquestion: |
   
   Thanks for using the SACAT Legal Service Assistance App, accessed on ${ format_date(today(), format='EEEE, d MMMM yyyy') } at ${ format_time(current_datetime()) }.
   
-  A list of relevant legal and advisory servicecs have been compiled relating to your matter thanks to the information provided. Contact details and location for each service have been provided for your convenience. In addition, a downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
-
-  Here are your answers. 
-
-  Questions|Answers
-  -------|-------
-  Salutation|${ JIRMsalutation }
-  Full Name|${ JIRMname }
-  Age|${ JIRMage } 
-  Gender|${ JIRMgender }
-  Indigenous Australian?|${ JIRMaboriginalortsi }
-  Postcode|${ JIRMpostcode }
-  Matter in SA?|${ JIRMresidency } 
-  English as a first language?|${ JIRMesl }
-  %if JIRMesl == 'No':
-  Interpreter|${ JIRMinterpreter } 
-  %endif 
-  Matter|${ JIRMmatter } 
-  %if JIRMmatter == 'Housing':
-  Specifics|${ JIRMhousingmatter }
-  %endif
-  %if JIRMmatter == 'Births, deaths and marriages':
-  Specifics|${ JIRMbdmmatter }
-  %endif
-  %if JIRMmatter == 'Equal Opportunity':
-  Specifics|${ JIRMeomatter }
-  %endif
-  %if JIRMmatter == 'Other administrative and community matters':
-  Specifics|${ JIRMadmincommatter }
-  %endif
+  A list of relevant legal and advisory servicecs have been compiled relating to your matter. In addition, a downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
   
    Based on your answers, we have generated a list of legal services that can assist in your matter.
    
-   *Create LIST*
+  ${ JIRMgender_list }
   
-  Would you like to see a complete list of legal services?
-  
-  *DO A SHOW IF THAT WILL SHOW THE COMPLETE LIST
-  Here is a complete list of legal services.
-  
-  ${ JIRMcolumn_header }
-  ${ JIRMdashes }
-  %for JIRMitem in JIRMtable_rows:
-  ${ JIRMitem }
-  %endfor
+  **EXAMPLENAME**  
+  Address  
+  Phone number  
+  Email  
+  Website  
   
   You also have the option to download a PDF containing all the information above for your future reference. 
-  
-attachment:
+
+attachment: 
   docx template file: BLANK_JINJA.docx
 
 buttons:
