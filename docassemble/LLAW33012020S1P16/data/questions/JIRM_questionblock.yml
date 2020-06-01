@@ -102,10 +102,6 @@ fields:
       - Yes
       - No
       - Prefer not to answer
-  - Postcode: JIRMpostcode
-    datatype: interger
-    min: 5000
-    max: 5999
   - Area: JIRMarea
     choices: 
       - North
@@ -118,26 +114,49 @@ fields:
       - North west 
       - Riverland 
       - CBD
+      - Regional 
 ---
-#Legal Services Dictionary, take this out eventually
-variable name: JIRMlegalservices
-use objects: True
-data:
-  - Legal Service: ONE
-    Location: Home
-    Area: 
-    Contact Number: 03297402394
-    Area of Expertise: Housing
-  - Legal Service: ONE
-    Location: Home
-    Area: 
-    Contact Number: 03297402394  
-  - Legal Service: ONE
-    Location: Home
-    Area: 
-    Contact Number: 03297402394
-  - Legal Service: ONE
-    Location: Home
-    Area: 
-    Contact Number: 03297402394
+#Display question block for matter
+code: | 
+  if JIRMmatter == 'JIRMhousing':
+    JIRMmatterdisplay = 'Housing'
+  elif JIRMmatter == 'JIRMbdm':
+    JIRMmatterdisplay = 'Births, deaths and marriages'
+  elif JIRMmatter == 'JIRMeo':
+    JIRMmatterdisplay = 'Equal Opportunity' 
+  elif JIRMmatter == 'JIRMother_admin': 
+    JIRMmatterdisplay = 'Other administrative and community matters' 
+  else:
+    JIRMmatterdisplay = 'not defined'
+---
+#Display question block for submatter
+code: |
+  if JIRMsubmatter == 'JIRMrta':
+    JIRMsubmatterdisplay = 'Residential tenancy agreements'
+  elif JIRMsubmatter == 'JIRMret':
+    JIRMsubmatterdisplay = 'Retirement villages'
+  elif JIRMsubmatter == 'JIRMres':
+    JIRMsubmatterdisplay = 'Residential parks'
+  elif JIRMsubmatter == 'JIRMrh':
+    JIRMsubmatterdisplay = 'Rooming houses'
+  elif JIRMsubmatter == 'JIRMnamedispute':
+    JIRMsubmatterdisplay = 'Dispute between parents about a childs name'
+  elif JIRMsubmatter == 'JIRMnameapproval':
+    JIRMsubmatterdisplay = 'Approval of an application by a parent to change a childs name'
+  elif JIRMsubmatter == 'JIRMdeathorder':
+    JIRMsubmatterdisplay = 'Order the registration of death'
+  elif JIRMsubmatter == 'JIRMdeathcorrection':
+    JIRMsubmatterdisplay = 'Correct registration of death'
+  elif JIRMsubmatter == 'JIRMgenderapproval':
+    JIRMsubmatterdisplay = 'Approval of an application by a child or their parent to register a change of the childs sex or gender identity'
+  elif JIRMsubmatter == 'JIRMidentityacknowledgement ':
+    JIRMsubmatterdisplay = 'Approval of an application by a child or their parent for an identity acknowledgement certificate'
+  elif JIRMsubmatter == 'JIRMregistrarreview':
+    JIRMsubmatterdisplay = 'Review of a decision of the Registrar'
+  elif JIRMsubmatter == 'JIRMeocomplaints':
+    JIRMsubmatterdisplay = 'Equal Opportunity complaints'
+  elif JIRMsubmatter == 'JIRMtimerefusal':
+    JIRMsubmatterdisplay = 'Review of refusal to extend time'  
+  else:
+    JIRMsubmatterdisplay = 'not defined'
 ---

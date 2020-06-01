@@ -10,7 +10,8 @@ objects:
 # Get a list of agencies in the major categories
 code: |
   JIRMmaj_category_list.clear()
-  for JIRMitem in JIRMlegal_services:
+  for JIRMkey in JIRMlegalservices:
+    JIRMitem = JIRMlegalservices[JIRMkey]
     if JIRMmatter in JIRMitem['major_category']:
       JIRMmaj_category_list.append(JIRMitem)
   JIRMmaj_category_list.gathered = True
@@ -52,13 +53,13 @@ code: |
 code: |
   JIRMindig_list.clear()
   for JIRMitem in JIRMyouth_list:
-    if JIRMaboriginalortsi = Yes and JIRMitem['indigenous'] == 'indig_only':
+    if JIRMaboriginalortsi == 'Yes' and JIRMitem['indigenous'] == 'indig_only':
       want_to_add = True
-    elif JIRMaboriginalortsi = Yes and JIRMitem['indigenous'] == 'everyone':
+    elif JIRMaboriginalortsi == 'Yes' and JIRMitem['indigenous'] == 'everyone':
       want_to_add = True
-    elif JIRMaboriginalortsi = Prefer not to answer and JIRMitem['indigenous'] == 'everyone':
+    elif JIRMaboriginalortsi == 'Prefer not to answer' and JIRMitem['indigenous'] == 'everyone':
       want_to_add = True
-    elif JIRMaboriginalortsi = No and JIRMitem['indigenous'] == 'everyone':
+    elif JIRMaboriginalortsi == 'No' and JIRMitem['indigenous'] == 'everyone':
       want_to_add = True
     elif JIRMitem['indigenous'] == 'everyone':
       want_to_add = True
@@ -73,17 +74,17 @@ code: |
 code: |
   JIRMgender_list.clear()
   for JIRMitem in JIRMindig_list:
-    if JIRMgender = Male and JIRMitem['gender'] == 'male_only':
+    if JIRMgender == 'Male' and JIRMitem['gender'] == 'male_only':
       want_to_add = True
-    elif JIRMgender = Male and JIRMitem['gender'] == 'everyone':
+    elif JIRMgender == 'Male' and JIRMitem['gender'] == 'everyone':
       want_to_add = True
-    elif JIRMgender = Female and JIRMitem['gender'] == 'female_only':
+    elif JIRMgender == 'Female' and JIRMitem['gender'] == 'female_only':
       want_to_add = True
-    elif JIRMgender = Female and JIRMitem['gender'] == 'everyone':
+    elif JIRMgender == 'Female' and JIRMitem['gender'] == 'everyone':
       want_to_add = True
-    elif JIRMgender = Prefer not to say and JIRMitem['gender'] == 'everyone':
+    elif JIRMgender == 'Prefer not to say' and JIRMitem['gender'] == 'everyone':
       want_to_add = True
-    elif JIRMgender = Other and JIRMitem['gender'] == 'everyone':
+    elif JIRMgender == 'Other' and JIRMitem['gender'] == 'everyone':
       want_to_add = True
     elif JIRMitem['gender'] == 'everyone':
       want_to_add = True
