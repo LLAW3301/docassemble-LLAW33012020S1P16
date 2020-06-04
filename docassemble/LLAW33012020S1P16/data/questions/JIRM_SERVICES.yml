@@ -65,7 +65,7 @@ data:
     description: Provides advice regarding housing matters
   LS004:
     legal_service: Landlord's Association SA
-    address: Postal address- GPO Box 2486, Adelaide, SA, 5001
+    address: Postal address- GPO Box 2486, Adelaide, SA 5001
     area: 
       - everyone
     major_category:
@@ -128,7 +128,7 @@ data:
     description: BLANK
   LS007:
     legal_service: Equal Opportunity Commission Legal Advice Service
-    address: Level 15, GPO Exchange, 10 Franklin Street, Adelaide, SA, 5000
+    address: Level 15, GPO Exchange, 10 Franklin Street, Adelaide, SA 5000
     area: 
       - CBD
     major_category:
@@ -204,7 +204,7 @@ data:
     description: Provides free legal services to the community situated in the Riverland area. 
   LS015:
     legal_service: Uniting Communities Law Centre
-    address: 43 Franklin St, Adelaide SA, Australia 5000
+    address: 43 Franklin St, Adelaide, SA 5000
     area: 
       - CBD
     major_category:
@@ -259,7 +259,7 @@ data:
     description: A community based legal centre that provides free legal services to women in South Australia.
   LS019:
     legal_service: Working women’s center
-    address: Station Arcade, 52 Hindley street, Adelaide SA, 5000
+    address: Station Arcade, 52 Hindley street, Adelaide SA 5000
     area: 
      - CBD
     major_category:
