@@ -14,12 +14,6 @@ metadata:
   organisation:  Flinders University
   show login: False
 ---
-# Interview help button, pretty cool feature we could include
-interview help:
-  heading: About this interview
-  content: |
-    Whatever we want here!!
----
 # This will include the other files
 include:
   - JIRM_SERVICES.yml
@@ -73,6 +67,11 @@ question: |
 subquestion: |
   Thank you for completing the eligibility and matter questions. The application will now ask for your personal details in order to compile a list of relevant legal services for your matter.
   
+  **Privacy Policy**  
+  As per the Australian Privacy Principles, your personal information will be collected in order to provide a relevant list of legal services and advisories. However, the information collected will not be stored.
+
+  **By clicking continue, you agree to these terms.**
+  
 ---
 # JIRM LAST SCREEN IF ALL IS ELIGIBLE
 # All variables must be included here to trigger their question block
@@ -88,14 +87,14 @@ subquestion: |
   A list of relevant legal and advisory servicecs have been compiled relating to your matter. In addition, a downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
   
    Based on your answers, we have generated a list of legal services that can assist in your matter.
-   
-  ${ JIRMgender_list }
   
-  **EXAMPLENAME**  
-  Address  
-  Phone number  
-  Email  
-  Website  
+  % for JIRMagency in JIRMgender_list:
+  **[${JIRMagency.item('legal_service') }](${JIRMagency.item('website')})**  
+  **Address:** ${ JIRMagency.item('address') }  
+  **Email:** ${ JIRMagency.item('email') }  
+  **Number:** ${ JIRMagency.item('number') }  
+  
+  % endfor  
   
   You also have the option to download a PDF containing all the information above for your future reference. 
 
