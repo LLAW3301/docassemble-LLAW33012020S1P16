@@ -68,7 +68,7 @@ subquestion: |
   Thank you for completing the eligibility and matter questions. The application will now ask for your personal details in order to compile a list of relevant legal services for your matter.
   
   **Privacy Policy**  
-  As per the Australian Privacy Principles, your personal information will be collected in order to provide a relevant list of legal services and advisories. However, the information collected will not be stored.
+  Your personal information will be collected in order to provide a relevant list of legal services and advisories. However, the information collected will not be stored.
 
   **By clicking continue, you agree to these terms.**
   
@@ -84,9 +84,11 @@ subquestion: |
   
   Thanks for using the SACAT Legal Service Assistance App, accessed on ${ format_date(today(), format='EEEE, d MMMM yyyy') } at ${ format_time(current_datetime()) }.
   
-  A list of relevant legal and advisory servicecs have been compiled relating to your matter. In addition, a downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
+  A list of relevant legal and advisory services have been compiled relating to your matter.
   
-   Based on your answers, we have generated a list of legal services that can assist in your matter.
+  A downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
+  
+  Based on your answers, we have generated a list of legal services that can assist in your matter.
   
   % for JIRMagency in JIRMgender_list:
   **[${JIRMagency.item('legal_service') }](${JIRMagency.item('website')})**  
