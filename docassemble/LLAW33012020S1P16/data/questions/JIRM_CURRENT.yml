@@ -99,8 +99,13 @@ subquestion: |
   You also have the option to download a PDF containing all the information above for your future reference. 
 
 attachment: 
+  name: SACAT Legal Generated Services and Advisories
   docx template file: BLANK_JINJA.docx
-
+  valid formats:
+    - pdf
+  description: |
+      A document containing the relevant services and advisories based on your answers.
+  
 buttons:
   - I'm done: exit
     url: http://www.sacat.sa.gov.au/
