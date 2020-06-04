@@ -8,21 +8,7 @@ fields:
     choices:
       - Yes
       - No
-      
-  - Is English your first language?: JIRMesl
-    datatype: radio
-    choices: 
-      - Yes 
-      - No 
-      
-  - Will you require an interpreter?: JIRMinterpreter 
-    show if:   
-     variable: JIRMesl
-     is: No
-    datatype: radio
-    choices: 
-      - Yes 
-      - No
+    default: Yes
 ---
 # This is a question block about matter
 question: Matter
@@ -70,9 +56,7 @@ fields:
      variable: JIRMmatter
      is: JIRMother_admin
     choices: 
-      - One
-      - Two
-      - Three
+      - Other: JIRMother
 ---
 #Personal Details question block
 question: Details
@@ -84,11 +68,14 @@ fields:
       - Mrs
       - Ms
       - Miss
+    default: Miss
   - Full Name: JIRMname
+    default: Jane Doe
   - Age: JIRMage
     datatype: integer
     min: 0
     max: 122
+    default: 30
   - Gender: JIRMgender
     datatype: radio
     choices: 
@@ -96,12 +83,14 @@ fields:
       - Female
       - Other
       - Prefer not to answer
+    default: Female
   - Do you identify as Aboriginal or Torres Strait Islander?: JIRMaboriginalortsi
     datatype: radio
     choices: 
       - Yes
       - No
       - Prefer not to answer
+    default: No
   - Area: JIRMarea
     choices: 
       - North
@@ -114,7 +103,8 @@ fields:
       - North west 
       - Riverland 
       - CBD
-      - Regional 
+      - Regional
+    default: North 
 ---
 #Display question block for matter
 code: | 
@@ -157,6 +147,8 @@ code: |
     JIRMsubmatterdisplay = 'Equal Opportunity complaints'
   elif JIRMsubmatter == 'JIRMtimerefusal':
     JIRMsubmatterdisplay = 'Review of refusal to extend time'  
+  elif JIRMsubmatter == 'JIRMother':
+    JIRMsubmatterdisplay = 'Other administrative and community matters'  
   else:
     JIRMsubmatterdisplay = 'not defined'
 ---
