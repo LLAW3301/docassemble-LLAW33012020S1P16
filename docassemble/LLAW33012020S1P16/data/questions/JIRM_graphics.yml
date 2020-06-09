@@ -25,7 +25,7 @@ objects:
 ---
 features:
   css: SACAT.css
-  debug: true
+  debug: false
   hide standard menu: False
 ---
 mandatory: True

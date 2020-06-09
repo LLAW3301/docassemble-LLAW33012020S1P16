@@ -78,17 +78,15 @@ subquestion: |
 event: endpoint['JIRMeligible']
 question: Results 
 subquestion: |
-  ### Thanks for using the SACAT Legal Service Assistance App! 
+  ### Thank you for using the SACAT Legal Service Assistance App! 
   ${ JIRMasked } 
   Dear ${ JIRMname },
   
-  Thanks for using the SACAT Legal Service Assistance App, accessed on ${ format_date(today(), format='EEEE, d MMMM yyyy') } at ${ format_time(current_datetime()) }.
+  Thank you for using the SACAT Legal Service Assistance App, accessed on ${ format_date(today(), format='EEEE, d MMMM yyyy') } at ${ format_time(current_datetime()) }.
   
-  A list of relevant legal and advisory services have been compiled relating to your matter.
+  Based on your answers, we have generated a list of relevant legal and advisory services that can assist in your matter. 
   
-  A downloadable PDF document has been created with the information you provided and the legal services applicable to your matter.
-  
-  Based on your answers, we have generated a list of legal services that can assist in your matter.
+  A downloadable PDF document containing the below information has also been created for your convenience. 
   
   % for JIRMagency in JIRMgender_list:
   **[${JIRMagency.item('legal_service') }](${JIRMagency.item('website')})**  
@@ -98,8 +96,6 @@ subquestion: |
   
   % endfor  
   
-  You also have the option to download a PDF containing all the information above for your future reference. 
-
 attachment: 
   name: SACAT Legal Generated Services and Advisories
   docx template file: BLANK_JINJA.docx
@@ -111,7 +107,7 @@ attachment:
 buttons:
   - I'm done: exit
     url: http://www.sacat.sa.gov.au/
-  - Do it again: restart
+  - Restart: restart
 ---
 # Code block to ask matter questions and display nothing
 code: |
